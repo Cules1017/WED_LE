@@ -1,0 +1,59 @@
+@charset "utf-8";
+body{
+	position: absolute;
+	
+	background-image: url('./hinhb.jpg');
+	background-attachment: fixed;
+	background-size: contain;
+}
+h1{
+	background-color: lightgreen;
+	width: 1500px;
+	height: 200px;
+	margin: 10px,5px;
+	padding: 5px,5px,5px,5px;
+	border-radius: 30px;
+	position: absolute;
+	z-index: 1;
+
+	
+}
+#header1{
+	color: white; 
+	font-size: 100px;
+	margin: 0px;
+	
+}
+#header2{
+	color: white;
+	font-size: 50px;
+	margin: 0px;
+}
+#mucluc{
+	color: black;
+	width: 200px;
+	height: 500px;
+	font-size:  20px;
+	margin-right: 5px;
+	margin-top: 5px;
+	border-radius: 5px;
+	background-color: gray;
+	padding-left: 15px;
+	text-align: left;
+	position: absolute;
+	top:225px;
+
+	z-index: 1;
+}
+#Moidau{
+	width: 1000px;
+	height: 600px;
+	margin: 10px;
+	left: 220px;
+	top:225px;
+	position: absolute;
+	text-align: center;
+	background-color: red;
+	z-index: 0;
+
+}
